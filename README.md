@@ -3,7 +3,7 @@
 Chef laughing octo laughs at your code when you dont pass its checkstyle , lint and spec criteria. 
 ==========
 
-Some out-of-the-box hooks for pre-commit for chef development are taken from [Pre-commits](https://github.com/pre-commit/pre-commit)
+We have used out of the box hooks for pre-commit for developement and are taken from [Pre-commits](https://github.com/pre-commit/pre-commit)
 
 
 ### How to use this in your Chef git repo ?
@@ -17,9 +17,10 @@ Some out-of-the-box hooks for pre-commit for chef development are taken from [Pr
    4. pre-commit:  `pip install pre-commit` this is needed so that our pre-commits work.
    
 #### Usage
-1.Create a file `.pre-commit-config.yaml` in your root folder of repo (where you have .git) 
-2.Add this to your 
- ``` yaml
+1. Create a file `.pre-commit-config.yaml` in your root folder of repo (where you have .git) 
+2. Add this to your `.pre-commit-config.yaml`
+
+``` yaml
  repos:
 -  repo: https://github.com/grizzly-monkey/chef-laughing-octo.git
     sha: ''   # Use the sha you want to point at release tag or a commit
