@@ -6,7 +6,7 @@ setup(
     name='chef-laughing-octo',
     description='Pre commit hooks for chef development.',
     url='https://github.com/grizzly-monkey/chef-laughing-octo',
-    version='v1.2',
+    version='1.3',
 
     author='Jeet Parmar',
     author_email='jeet@coupa.com',
@@ -37,9 +37,9 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'check-cookstyle = octo-hooks.check_cookstyle:check_cookstyle',
-            'check-rspec = octo-hooks.check_rspec:check_rspec',
-            'check-foodcritic = octo-hooks.check_foodcritic:check_foodcritic',
+            'check-cookstyle = octo_hooks.check_cookstyle:check_cookstyle',
+            'check-rspec = octo_hooks.check_rspec:check_rspec',
+            'check-foodcritic = octo_hooks.check_foodcritic:check_foodcritic',
         ],
     },
 )

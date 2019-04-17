@@ -8,7 +8,7 @@ import argparse
 import sys
 from subprocess import call
 
-from pre_commit_hooks.util import parse_command
+from octo_hooks.util import parse_command
 
 
 def check_foodcritic(argv=None):
