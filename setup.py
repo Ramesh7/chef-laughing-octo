@@ -3,13 +3,13 @@ from setuptools import setup
 
 
 setup(
-    name='pre_commit_hooks',
-    description='Some out-of-the-box hooks for pre-commit.',
-    url='https://github.com/pre-commit/pre-commit-hooks',
-    version='0.6.1',
+    name='chef-laughing-octo',
+    description='Pre commit hooks for chef development.',
+    url='https://github.com/grizzly-monkey/chef-laughing-octo',
+    version='v1.2',
 
-    author='Anthony Sottile',
-    author_email='asottile@umich.edu',
+    author='Jeet Parmar',
+    author_email='jeet@coupa.com',
 
     classifiers=[
         'License :: OSI Approved :: MIT License',
@@ -19,6 +19,8 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
@@ -35,9 +37,9 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'check-cookstyle = pre_commit_hooks.check_cookstyle:check_cookstyle',
-            'check-rspec = pre_commit_hooks.check_rspec:check_rspec',
-            'check-foodcritic = pre_commit_hooks.check_foodcritic:check_foodcritic',
+            'check-cookstyle = octo-hooks.check_cookstyle:check_cookstyle',
+            'check-rspec = octo-hooks.check_rspec:check_rspec',
+            'check-foodcritic = octo-hooks.check_foodcritic:check_foodcritic',
         ],
     },
 )
