@@ -23,11 +23,11 @@ We have used out of the box hooks for pre-commit for developement and are taken 
 ``` yaml
  repos:
 -  repo: https://github.com/grizzly-monkey/chef-laughing-octo.git
-    sha: ''   # Use the sha you want to point at release tag or a commit
-    hooks:
-     - id: check-foodcritic   # if you want to run foodcritic for cookbooks in repo
-     - id: check-rspec      # if you want to run rspec for recipies in the repo
-     - id: check-cookstyle  # if you want to run cookstyle for cookbooks in repo
+   sha: ''   # Use the sha you want to point at release tag or a commit
+   hooks:
+    - id: check-foodcritic   # if you want to run foodcritic for cookbooks in repo
+    - id: check-rspec      # if you want to run rspec for recipies in the repo
+    - id: check-cookstyle  # if you want to run cookstyle for cookbooks in repo
  ```
 
 
