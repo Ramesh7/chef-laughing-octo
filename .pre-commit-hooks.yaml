@@ -1,0 +1,18 @@
+-   id: check-rspec
+    name: run rspec for recipes
+    entry: check-rspec
+    language: python
+    files: '\.rb$'
+    always_run: true
+-   id: check-cookstyle
+    name: run cookstyle for cookbooks
+    entry: check-cookstyle
+    language: python
+    files: '\.rb$'
+    always_run: true
+-   id: check-foodcritic
+    name: run foodcritic for chef cookbooks
+    entry: check-foodcritic
+    language: python
+    files: ''
+    always_run: true
